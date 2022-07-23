@@ -1,5 +1,4 @@
-title: updates 
-show_downloads: false
+title: updates
 theme: jekyll-theme-minimal
 plugins: 
   - jekyll-feed
