@@ -4,8 +4,7 @@ layout: default
 
 {% for post in site.posts %}
 
-<p> >> {{ post.title }}
-<br><small>date: {{ post.date | date: "%D" }}</small></p>
-<p>{{ post.content }}</p>
+<p> >> {{ post.date | date: "%D" }}
+<br>{{ post.content }}</p>
 
 {% endfor %}
