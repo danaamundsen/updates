@@ -1,30 +1,12 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 html { font-size: 80%; }
 
 body{
   background: #000;
   font-size: 1em;
   font-family: courier new, monospace;
+  line-height: 75%;
   color: #ccc;
-}
-
-a, a:hover {
-  color: blue;
-  text-decoration: underline;
-}
-
-a:active, a:focus {
-  font-weight: normal;
-  color: blue;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: purple;
-  text-decoration: underline;
-  font-weight: normal;
 }
