@@ -22,7 +22,7 @@ a, a:hover {
 }
 
 a:active, a:focus {
-  font-weight: inherit;
+  font-weight: normal;
   color: blue;
   text-decoration: underline;
 }
@@ -30,7 +30,7 @@ a:active, a:focus {
 a:visited {
   color: purple;
   text-decoration: underline;
-  font-weight: inherit;
+  font-weight: normal;
 }
 
 .wrapper {
