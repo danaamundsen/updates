@@ -9,26 +9,33 @@ body{
   background: #000;
   font-size: 1em;
   font-family: courier new, monospace;
-  color: #ffccff;
+  color: #ccc;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ffccff;
+  color: #fff;
 }
 
-a {
-  color: #ccff00;
+a, a:hover {
+  color: blue;
   text-decoration: underline;
 }
 
-a:hover, a:active, a:focus {
+a:active, a:focus {
   font-weight: inherit;
-  color: #fff;
-  text-decoration: none;
+  color: blue;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: underline;
+  font-weight: inherit;
 }
 
 .wrapper {
   width:300px;
+  margin-left: 0px;
 }
 
 header {
