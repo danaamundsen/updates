@@ -4,8 +4,7 @@ layout: default
 
 {% for post in site.posts limit:3 %}
 
-<p> >> {{ post.date | date: "%D" }}
-<br>{{ post.content }}</p>
+<p>!! {{ post.date | date: "%D" }} >> {{ post.content }}</p>
 
 {% endfor %}
 <p><a target="_blank" href="/all/">view all</a></p>
