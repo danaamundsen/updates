@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+
+<p> >> {{ post.date | date: "%D" }}
+<br>{{ post.content }}</p>
+
+{% endfor %}
